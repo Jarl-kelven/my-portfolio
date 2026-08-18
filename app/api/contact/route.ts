@@ -16,11 +16,11 @@ export async function POST(req: NextRequest) {
     const parsed = schema.safeParse(body);
 
     if (!parsed.success) {
-      return Response.json(
-        { error: parsed.error.errors[0].message },
-        { status: 400 }
-      );
-    }
+  return Response.json(
+    { error: parsed.error.issues[0].message },
+    { status: 400 }
+  );
+}
 
     const { name, email, message } = parsed.data;
 

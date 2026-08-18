@@ -63,7 +63,7 @@ export default function Navbar() {
             </Link>
           ))}
           <Link
-            href="/contact"
+            href="https://wa.me/+2349159458206"
             className="ml-2 text-[13px] font-medium text-white bg-[#C0460A] hover:bg-[#E8652A] px-4 py-1.5 rounded-[7px] transition-colors duration-150"
           >
             Let&apos;s talk
@@ -98,7 +98,7 @@ export default function Navbar() {
             </Link>
           ))}
           <Link
-            href="/contact"
+            href="https://wa.me/+2349159458206"
             onClick={() => setMenuOpen(false)}
             className="flex items-center gap-2 px-5 py-3.5 text-[15px] font-medium text-[#C0460A] hover:text-[#E8652A] transition-colors"
           >
