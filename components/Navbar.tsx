@@ -6,6 +6,7 @@ import { usePathname } from "next/navigation";
 import { useState, useEffect } from "react";
 import logo from "../public/Images/logo-portfolio.svg"
 const links = [
+  { href: "/contact", label: "Contact" },
   { href: "/about", label: "About" },
   { href: "/projects", label: "Projects" },
 ];
