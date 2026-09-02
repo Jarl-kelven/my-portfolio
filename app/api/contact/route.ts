@@ -26,7 +26,7 @@ export async function POST(req: NextRequest) {
 
     await resend.emails.send({
       from:    "Portfolio Contact <onboarding@resend.dev>",
-      to:      "aghkelvin@gmail.com", // 🔁 replace with your actual email
+      to:      "aghkelvin@gmail.com", 
       subject: `New message from ${name}`,
       html: `
         <div style="font-family:sans-serif;max-width:600px;margin:0 auto;padding:24px">

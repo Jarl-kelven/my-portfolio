@@ -60,9 +60,6 @@ export default function Stack() {
       <div className="max-w-4xl mx-auto">
 
         {/* Section label */}
-        <p className="text-xs font-medium text-[#C0460A] uppercase tracking-widest mb-3">
-          04 — Stack
-        </p>
         <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4 mb-12">
           <h2 className="text-2xl sm:text-3xl font-semibold text-white tracking-tight">
             Tools I work with.
@@ -113,23 +110,7 @@ export default function Stack() {
           ))}
         </div>
 
-        {/* Currently learning bar */}
-        <div className="mt-6 bg-[#161616] border border-white/[0.07] rounded-xl px-6 py-4 flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4">
-          <span className="text-xs font-medium text-[#C0460A] uppercase tracking-widest flex-shrink-0">
-            Currently exploring
-          </span>
-          <div className="flex flex-wrap gap-2">
-            {["Docker", "AWS", "tRPC"].map((item) => (
-              <span
-                key={item}
-                className="text-xs text-[#555] bg-white/[0.03] border border-white/[0.06] px-3 py-1 rounded-full"
-              >
-                {item}
-              </span>
-            ))}
-          </div>
-        </div>
-
+        
       </div>
     </section>
   );

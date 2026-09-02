@@ -20,12 +20,14 @@ export const projects = [
     desktop: "/previews/PlanIt-desktop.png",
     mobile: "/previews/PlanIt-mobile.png",
   },
-//   {
-//     title: "Project Three",
-//     description:
-//       "Short description of what the project does, the problem it solves, and your specific role in building it.",
-//     stack: ["React", "Node.js", "MongoDB", "Tailwind CSS"],
-//     github: "https://github.com/yourusername/project-three",
-//     live: "",
-//   },
+  {
+    title: "Healthnet",
+    description:
+      "A healthcare management platform built with Next.js, Prisma, and PostgreSQL.",
+    stack: ["Next.js", "Prisma", "PostgreSQL", "Tailwind CSS"],
+    github: "https://github.com/Jarl-kelven/hospital-management",
+    live: "https://hospital-management-sigma-murex.vercel.app/",
+    desktop: "/previews/Healthnet-desktop.png",
+    mobile: "/previews/Healthnet-mobile.png",
+  },
 ];

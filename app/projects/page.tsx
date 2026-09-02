@@ -9,9 +9,7 @@ export default function Projects() {
         {/* Section header */}
         <div className="flex items-end justify-between mb-12">
           <div>
-            <p className="text-xs font-medium text-[#C0460A] uppercase tracking-widest mb-3">
-              02 — Work
-            </p>
+           
             <h2 className="text-2xl sm:text-3xl font-semibold text-white tracking-tight">
               Things I&apos;ve built
             </h2>

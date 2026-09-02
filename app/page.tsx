@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
-import Stack from "@/components/Stack"
+
 
 export default function Hero() {
   const [visible, setVisible] = useState(false);
@@ -73,7 +73,7 @@ export default function Hero() {
         </div>
 
        
-      <Stack/>
+    
       </div>
     </section>
   );

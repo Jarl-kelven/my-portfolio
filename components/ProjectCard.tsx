@@ -7,7 +7,6 @@ interface Project {
   stack: string[];
   github: string;
   live: string;
-  wip?: boolean;
   desktop: string;
   mobile: string;
 }
@@ -20,11 +19,7 @@ export default function ProjectCard({ project }: { project: Project }) {
         <h3 className="text-base font-medium text-white leading-snug group-hover:text-[#E8652A] transition-colors duration-200">
           {project.title}
         </h3>
-        {project.wip && (
-          <span className="text-[10px] font-medium text-amber-400 bg-amber-400/10 border border-amber-400/20 px-2 py-0.5 rounded-full flex-shrink-0">
-            WIP
-          </span>
-        )}
+       
       </div>
 
       {/* Description */}

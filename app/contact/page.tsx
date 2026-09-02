@@ -77,9 +77,7 @@ export default function Contact() {
       <div className="max-w-4xl mx-auto">
 
         {/* Section label */}
-        <p className="text-xs font-medium text-[#C0460A] uppercase tracking-widest mb-3">
-          05 — Contact
-        </p>
+      
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
 

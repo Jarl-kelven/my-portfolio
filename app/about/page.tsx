@@ -1,3 +1,4 @@
+import Stack from "@/components/Stack";
 import Image from "next/image";
 
 const values = [
@@ -23,9 +24,7 @@ export default function About() {
     >
       <div className="max-w-4xl mx-auto">
         {/* Section label */}
-        <p className="text-xs font-medium text-[#C0460A] uppercase tracking-widest mb-3">
-          03 — About
-        </p>
+        
 
         <div className="grid grid-cols-1 gap-16 items-start">
           {/* Left — bio */}
@@ -92,6 +91,7 @@ export default function About() {
           </div>
         </div>
       </div>
+      <Stack />
     </section>
   );
 }
